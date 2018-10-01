@@ -98,6 +98,10 @@ Only option available is **1**, if it is set, the shortcode will ignore possible
 
 == Changelog ==
 
+= 1.0.37 =
+* [Added] Game location as title for Google map link
+* [Removed] "Show game location" translation, this is now replaced with the location itself
+
 = 1.0.36 =
 * [Added] $atts variable as second argument to filters sis_handball_table_data and sis_handball_concatenation_data
 

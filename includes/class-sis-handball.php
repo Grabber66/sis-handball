@@ -46,7 +46,7 @@ class Sis_Handball
     public function __construct()
     {
         $this->sis_handball = 'sis-handball';
-        $this->version = '1.0.36';
+        $this->version = '1.0.37';
 
         $this->load_dependencies();
         $this->set_locale();

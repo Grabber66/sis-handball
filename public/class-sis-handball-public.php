@@ -77,7 +77,7 @@ class Sis_Handball_Public
     public static function shortcode_sis_handball($atts, $content = '', $tag = '', $data_only = FALSE)
     {
         $atts = apply_filters('sis_handball_atts', $atts);
-        
+
         $league_id = $atts['league'];
         $type = $atts['type'];
         $team = $atts['team'];
@@ -810,7 +810,7 @@ class Sis_Handball_Public
                     if (!in_array('5', $hide_cols)) {
                         $table_rows++;
                         if ($data_part['location']) {
-                            $returner .= '<td><a title="' . Sis_Handball_Public::internal_translate('sis-handball-text-show-game-location', __('Show game location', 'sis-handball')) . '" class="map-link" href="https://maps.google.com/maps?q=' . $data_part['location'] . '" target="_blank"><span class="map-icon"></span><span class="map-text">' . Sis_Handball_Public::internal_translate('sis-handball-text-show-map', __('Show Map', 'sis-handball')) . '</span></a></td>';
+                            $returner .= '<td><a title="' . $data_part['location'] . '" class="map-link" href="https://maps.google.com/maps?q=' . $data_part['location'] . '" target="_blank"><span class="map-icon"></span><span class="map-text">' . Sis_Handball_Public::internal_translate('sis-handball-text-show-map', __('Show Map', 'sis-handball')) . '</span></a></td>';
                         } else {
                             $returner .= '<td></td>';
                         }

@@ -7,7 +7,7 @@
  * Plugin Name: SIS Handball
  * Plugin URI: http://felixwelberg.de
  * Description: Show statistics and data provided by sis-handball.de. Tables, scores and next games.
- * Version: 1.0.36
+ * Version: 1.0.37
  * Author: Felix Welberg
  * Author URI: http://felixwelberg.de/
  * License: GPL-2.0+

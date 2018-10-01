@@ -183,15 +183,6 @@ class Sis_Handball_Admin_Viewhelpers
                                 </td>
                             </tr>
                             <tr>
-                                <th><label for="sis_handball_text_show_game_location">' . __('Show game location', 'sis-handball') . '</label></th>
-                                <td>
-                                    <fieldset>
-                                        <legend class="screen-reader-text"><span>' . __('Show game location', 'sis-handball') . '</span></legend>
-                                        <input name="translation[sis-handball-text-show-game-location]" type="text" id="sis_handball_text_show_game_location" value="' . get_option('sis-handball-text-show-game-location') . '" class="large-text" placeholder="' . __('Show game location', 'sis-handball') . '">
-                                    </fieldset>
-                                </td>
-                            </tr>
-                            <tr>
                                 <th><label for="sis_handball_text_show_map">' . __('Show Map', 'sis-handball') . '</label></th>
                                 <td>
                                     <fieldset>
